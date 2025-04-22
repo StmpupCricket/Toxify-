@@ -1,1 +1,199 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>TOXIFY Player</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" /><style>body{margin:0;background:#000;color:#fff;font-family:'Segoe UI',sans-serif;text-align:center}body::selection{background:#ffd700;color:#000}.header{background:linear-gradient(to right,#0a0f2c,#0f1c48);padding:20px;box-shadow:0 0 15px #00ccff66,0 0 30px #00ccff33}.header h1{margin:0;font-size:2.5rem}.player-container{max-width:800px;margin:20px auto;aspect-ratio:16/9;background:#000;border:2px solid gold;border-radius:12px;overflow:hidden;box-shadow:0 0 15px yellow}#channelContainer{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;max-width:600px;margin:30px auto;padding:0 15px}.channel-btn{background:#111;color:#fff;padding:12px;border:2px solid #FFD700;border-radius:10px;font-weight:bold;cursor:pointer;transition:.3s}.channel-btn:hover{background:#FFD700;color:#000}footer{margin-top:auto;padding:15px;font-size:14px;background:#0a0f2c;box-shadow:0 -2px 10px #00ccff33}footer a{color:#FFD700;text-decoration:none;font-weight:bold}footer a:hover{text-decoration:underline}#telegramPopup{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(10,10,10,0.85);display:none;align-items:center;justify-content:center;z-index:9999}.popup-content{background:#0a0f2c;padding:30px;border:2px solid #FFD700;border-radius:15px;text-align:center;max-width:90%;box-shadow:0 0 20px #FFD700;position:relative;color:white}.popup-content h2{margin-top:0;font-size:1.8rem}.popup-content p{font-size:1rem;margin:10px 0 20px}.popup-btn{background:#FFD700;color:#000;padding:10px 20px;text-decoration:none;font-weight:bold;border-radius:8px;transition:background 0.3s}.popup-btn:hover{background:#e6c200}.close-popup{position:absolute;top:8px;right:12px;background:transparent;border:none;color:#FFD700;font-size:24px;cursor:pointer}</style></head><body oncontextmenu="return false" onkeydown="return disableInspect(event)"><div class="header"><h1>TOXIFY</h1></div><div class="player-container"><video id="player" controls playsinline></video></div><div id="channelContainer"></div><div id="telegramPopup"><div class="popup-content"><button class="close-popup" onclick="document.getElementById('telegramPopup').style.display='none'">×</button><h2>Join Our Premium Telegram!</h2><p>Get exclusive live matches, updates, and no-buffering links.</p><a href="https://t.me/Manish6_6" target="_blank" class="popup-btn">Join Now</a></div></div><footer>Made by <a href="https://t.me/Manish6_6" target="_blank">@Manish6_6</a> | All rights reserved © 2025</footer><script src="https://cdn.plyr.io/3.7.8/plyr.js"></script><script>function _0x2559(_0x2a7e4f,_0x69ff7d){const _0xa9f1f7=_0xa9f1();return _0x2559=function(_0x2559bc,_0x3a7735){_0x2559bc=_0x2559bc-0x103;let _0x5abf74=_0xa9f1f7[_0x2559bc];return _0x5abf74;},_0x2559(_0x2a7e4f,_0x69ff7d);}const _0x40d462=_0x2559;(function(_0x3de486,_0x19a693){const _0x2f1d87=_0x2559,_0x792357=_0x3de486();while(!![]){try{const _0x32a788=parseInt(_0x2f1d87(0x120))/0x1+parseInt(_0x2f1d87(0x10f))/0x2*(-parseInt(_0x2f1d87(0x105))/0x3)+parseInt(_0x2f1d87(0x111))/0x4+parseInt(_0x2f1d87(0x10d))/0x5+-parseInt(_0x2f1d87(0x11d))/0x6*(-parseInt(_0x2f1d87(0x103))/0x7)+parseInt(_0x2f1d87(0x116))/0x8+-parseInt(_0x2f1d87(0x112))/0x9;if(_0x32a788===_0x19a693)break;else _0x792357['push'](_0x792357['shift']());}catch(_0x2fcafa){_0x792357['push'](_0x792357['shift']());}}}(_0xa9f1,0x63396));const player=new Plyr(_0x40d462(0x107),{'autoplay':!![]});function setStream(_0x4d2bf0){const _0x40a88e=_0x40d462;player[_0x40a88e(0x11a)]={'type':'video','sources':[{'src':_0x4d2bf0,'type':_0x40a88e(0x11b)}]},player[_0x40a88e(0x11e)]();}fetch(_0x40d462(0x113))[_0x40d462(0x108)](_0x5bc0b5=>_0x5bc0b5[_0x40d462(0x121)]())[_0x40d462(0x108)](_0x498a89=>{const _0x26f856=_0x40d462,_0x1d3f13=document[_0x26f856(0x11f)]('channelContainer');_0x498a89[_0x26f856(0x119)](_0x5d958e=>{const _0x27313b=_0x26f856,_0x5c70d3=document[_0x27313b(0x118)](_0x27313b(0x10e));_0x5c70d3[_0x27313b(0x115)]=_0x27313b(0x109),_0x5c70d3[_0x27313b(0x117)]=_0x5d958e['channel_name'],_0x5c70d3[_0x27313b(0x10c)]=()=>setStream(_0x5d958e[_0x27313b(0x114)]),_0x1d3f13[_0x27313b(0x10b)](_0x5c70d3);});})[_0x40d462(0x11c)](_0x566dec=>{const _0x4718c1=_0x40d462;console['error'](_0x4718c1(0x104),_0x566dec);}),setTimeout(()=>{const _0x2bbd46=_0x40d462;document[_0x2bbd46(0x11f)](_0x2bbd46(0x10a))['style'][_0x2bbd46(0x110)]=_0x2bbd46(0x106);},0xbb8);function _0xa9f1(){const _0x2cecf3=['2wTEFak','display','2519392Aebjfh','6869052HjVDqm','https://raw.githubusercontent.com/StmpupCricket/IPL-ALL-LANGUAGES-JSON/refs/heads/main/data.json','m3u8_url','className','1753120vSOswm','textContent','createElement','forEach','source','application/x-mpegURL','catch','576NOQvnX','play','getElementById','91475CyifTV','json','13678lbPOxm','Failed\x20to\x20load\x20channel\x20list:','696327JbVgwp','flex','#player','then','channel-btn','telegramPopup','appendChild','onclick','1368560dTESYl','button'];_0xa9f1=function(){return _0x2cecf3;};return _0xa9f1();}</script><script>function disableInspect(e){if(e.keyCode===123||(e.ctrlKey&&e.shiftKey&&['I','J','C'].includes(e.key.toUpperCase()))||(e.ctrlKey&&e.key.toUpperCase()==='U')){e.preventDefault();return false;}}</script><script>console.log("%cSTOP!","color:red;font-size:40px;font-weight:bold;");console.log("%cThis browser feature is for developers only. If someone asked you to copy something here, it could be a scam.","color:yellow;font-size:16px;");</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOXIFY Player</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: #fff;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+        }
+        body::selection {
+            background: #ffd700;
+            color: #000;
+        }
+        .header {
+            background: linear-gradient(to right, #0a0f2c, #0f1c48);
+            padding: 20px;
+            box-shadow: 0 0 15px #00ccff66, 0 0 30px #00ccff33;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .player-container {
+            max-width: 800px;
+            margin: 20px auto;
+            aspect-ratio: 16/9;
+            background: #000;
+            border: 2px solid gold;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 15px yellow;
+        }
+        #channelContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+        .channel-btn {
+            background: #111;
+            color: #fff;
+            padding: 12px;
+            border: 2px solid #FFD700;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: .3s;
+        }
+        .channel-btn:hover {
+            background: #FFD700;
+            color: #000;
+        }
+        footer {
+            margin-top: auto;
+            padding: 15px;
+            font-size: 14px;
+            background: #0a0f2c;
+            box-shadow: 0 -2px 10px #00ccff33;
+        }
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        #telegramPopup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(10, 10, 10, 0.85);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+        .popup-content {
+            background: #0a0f2c;
+            padding: 30px;
+            border: 2px solid #FFD700;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 90%;
+            box-shadow: 0 0 20px #FFD700;
+            position: relative;
+            color: white;
+        }
+        .popup-content h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        .popup-content p {
+            font-size: 1rem;
+            margin: 10px 0 20px;
+        }
+        .popup-btn {
+            background: #FFD700;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .popup-btn:hover {
+            background: #e6c200;
+        }
+        .close-popup {
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            background: transparent;
+            border: none;
+            color: #FFD700;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body oncontextmenu="return false" onkeydown="return disableInspect(event)">
+    <div class="header">
+        <h1>TOXIFY</h1>
+    </div>
+
+    <div class="player-container">
+        <video id="player" controls playsinline></video>
+    </div>
+
+    <div id="channelContainer"></div>
+
+    <div id="telegramPopup">
+        <div class="popup-content">
+            <button class="close-popup" onclick="document.getElementById('telegramPopup').style.display='none'">×</button>
+            <h2>Join Our Premium Telegram!</h2>
+            <p>Get exclusive live matches, updates, and no-buffering links.</p>
+            <a href="https://t.me/Manish6_6" target="_blank" class="popup-btn">Join Now</a>
+        </div>
+    </div>
+
+    <footer>
+        Made by <a href="https://t.me/Manish6_6" target="_blank">@Manish6_6</a> | All rights reserved © 2025
+    </footer>
+
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+    <script>
+        function disableInspect(e) {
+            if(e.keyCode === 123 || (e.ctrlKey && e.shiftKey && ['I','J','C'].includes(e.key.toUpperCase())) || (e.ctrlKey && e.key.toUpperCase() === 'U')) {
+                e.preventDefault();
+                return false;
+            }
+        }
+
+        console.log("%cSTOP!","color:red;font-size:40px;font-weight:bold;");
+        console.log("%cThis browser feature is for developers only. If someone asked you to copy something here, it could be a scam.","color:yellow;font-size:16px;");
+
+        const player = new Plyr('#player', {'autoplay': true});
+        function setStream(url) {
+            player.source = {
+                type: 'video',
+                sources: [{
+                    src: url,
+                    type: 'application/x-mpegURL'
+                }]
+            };
+            player.play();
+        }
+
+        fetch('https://raw.githubusercontent.com/StmpupCricket/IPL-ALL-LANGUAGES-JSON/refs/heads/main/data.json')
+            .then(response => response.json())
+            .then(data => {
+                const channelContainer = document.getElementById('channelContainer');
+                data.forEach(channel => {
+                    const channelBtn = document.createElement('button');
+                    channelBtn.className = 'channel-btn';
+                    channelBtn.textContent = channel.channel_name;
+                    channelBtn.onclick = () => setStream(channel.m3u8_url);
+                    channelContainer.appendChild(channelBtn);
+                });
+            })
+            .catch(error => console.error('Failed to load channel list:', error));
+
+        setTimeout(() => {
+            document.getElementById('telegramPopup').style.display = 'flex';
+        }, 5000);
+    </script>
+</body>
+</html>
